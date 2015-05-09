@@ -27,7 +27,7 @@ console.dir( window.foo );
 console.log( window.foo === foo ); // operation to show equality 'cause I wanted to
 ````
 
-> **Note:** This only happens when `window` is the *global scope*. If you're scratching your head, it's valid. There are actually instances where you'll find that `window` is not the* global scope*. A good example of this would be when you inject one web page into another using an `iframe`. The `window` object of the code running inside the `iframe` is no longer the *global scope*. **Huzzah!** ["The more you know..."](https://www.youtube.com/watch?v=GD6qtc2_AQA)
+> **Note:** This only happens when `window` is the *global scope*. If you're scratching your head, it's valid. There are actually instances where you'll find that `window` is not the *global scope*. A good example of this would be when you inject one web page into another using an `iframe`. The `window` object of the code running inside the `iframe` is no longer the *global scope*. **Huzzah!** ["The more you know..."](https://www.youtube.com/watch?v=GD6qtc2_AQA)
 
 ### So you're telling me...
 
