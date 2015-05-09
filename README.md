@@ -34,4 +34,4 @@ console.log( window.foo === foo ); // operation to show equality 'cause I wanted
 So, what this means is that `foo` derives/inherits from the `window` object... and is, therefore, both a **"function"** and a **"method"**   
 ### And this means...
 
-And this means that the next time someone asks you whether `x` is a **"function"** or a **"method"**, feel free to explain *how pedantically incorrect that sentiment is - you cheeky developer you! :)*.
+And this means that the next time someone asks you whether `x` is a **"function"** or a **"method"**, feel free to explain *how pedantically incorrect that sentiment is - you cheeky developer you! :)*
