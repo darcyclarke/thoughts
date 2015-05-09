@@ -2,7 +2,7 @@
 
 they are my own... if that's not glaringly obvious...
 
-## `"Functions"` vs. `"Methods"` in JavaScript
+## "Functions" vs. "Methods" in JavaScript...
 
 ```javascript
 function foo () {};
