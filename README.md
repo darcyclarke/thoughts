@@ -36,8 +36,6 @@ So, what this means is that `foo` derives/inherits from the `window` object... a
 
 And this means that the next time someone asks you whether `x` is a **"function"** or a **"method"**, feel free to explain *how pedantically incorrect that sentiment is - you cheeky developer you! :wink:*
 
-======================
-
 ## On more thing...
 
 If you think this interpreation is wrong... or any thought here is wrong... feel free to make a Pull Request. **YAY Open Source!**
