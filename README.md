@@ -21,6 +21,7 @@ Although not explicit, in JavaScript, any **variable** or **function** *declarat
 ### See for yourself...
 
 ```javascript
+function foo () {};
 console.dir( window );
 console.dir( window.foo );
 console.log( window.foo === foo ); // operation to show equality
