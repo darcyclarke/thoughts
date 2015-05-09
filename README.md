@@ -38,6 +38,6 @@ And this means that the next time someone asks you whether `x` is a **"function"
 
 ## one more thing...
 
-If you think this interpreation is wrong... or any thought here is wrong... feel free to make a Pull Request. **YAY Open Source!**
+If you think this interpreation is wrong... or any thought here is wrong... **make a Pull Request**...
 
 ![Boom](http://assets.diylol.com/hfs/3a1/04b/f82/resized/success-kid-meme-generator-boom-delivered-the-win-c6a5e4.jpg )
