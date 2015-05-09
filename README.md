@@ -16,7 +16,7 @@ Semantically, the only difference between a **"method"** and a **"function"** is
 
 ### Now the fun part...
 
-Although not explicit, in JavaScript, any **variable** or **function** *declaration* (ie. `var ...` or `function ...`), found in the *global scope* gets hoisted, automatically, and bound to the `window` object (**magic!**).
+Although not explicit, in JavaScript, any **variable** or **function** *declaration* (ie. `var ...` or `function ...`), found in the *global scope* gets hoisted, **automagically™**, and bound to the `window` object.
 
 ### See for yourself...
 
