@@ -14,11 +14,11 @@ function foo () {};
 
 Semantically, the only difference between a **"method"** and a **"function"** is that a **method** is defined as being associated with an **"object"** where it inherits data/attributes. This is where the term *"Object-Oriented Programming"* is derived; From there you can start to understand the differences between *"classical"* and *"prototypical"* *inheritence* (but that's a whole other thought, I digress...). 
 
-#### Now the fun part...
+### Now the fun part...
 
 Although not explicit, in JavaScript, any **variable** or **function** *declaration* (ie. `var ...` or `function ...`), found in the *global scope* gets hoisted, automatically, and bound to the `window` object (**magic!**).
 
-#### See for yourself...
+### See for yourself...
 
 ```javascript
 console.dir( window );
