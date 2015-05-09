@@ -10,7 +10,7 @@ function foo () {};
 
 `foo` is a **"function"** in the typical sense. `foo` also happens to be a **"method"**.
 
-### "How can this be?" you might ask. 
+### "How can this be?" you might ask...
 
 Semantically, the only difference between a **"method"** and a **"function"** is that a **method** is defined as being associated with an **"object"** where it inherits data/attributes. This is where the term *"Object-Oriented Programming"* is derived; From there you can start to understand the differences between *"classical"* and *"prototypical"* *inheritence* (but that's a whole other thought, I digress...). 
 
