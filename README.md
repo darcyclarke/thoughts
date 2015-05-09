@@ -28,5 +28,5 @@ console.log( window.foo === foo ); // operation to show equality
 
 So the next time someone asks you whether `x` is a **"function"** or **"method"**, feel free to explain how pedantically incorrect that sentiment is.
 
-> * **Note:** This only happens when `window` is the gloabl scope. If you're scratching your head, it's valid. There are actually instances where you'll find that `window` is not the global scope. A good example of this would be when you inject one web page into another using an `iframe`. The `window` object of the code running inside the `iframe` is no longer the global scope. Huzzah!
+> * **Note:** This only happens when `window` is the *global scope*. If you're scratching your head, it's valid. There are actually instances where you'll find that `window` is not the global scope. A good example of this would be when you inject one web page into another using an `iframe`. The `window` object of the code running inside the `iframe` is no longer the global scope. Huzzah!
 
