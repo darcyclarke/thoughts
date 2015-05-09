@@ -16,7 +16,7 @@ Semantically, the only difference between a **"method"** and a **"function"** is
 
 #### Now the fun part...
 
-Although not explicit, in JavaScript, any **variable** or **function** *declaration* (ie. `var ...` or `function ...`), found in the *global scope* gets hoisted, automatically, and bound to the `window` object* **like magic!**
+Although not explicit, in JavaScript, any **variable** or **function** *declaration* (ie. `var ...` or `function ...`), found in the *global scope* gets hoisted, automatically, and bound to the `window` object (**magic!**).
 
 #### See for yourself...
 
@@ -26,7 +26,7 @@ console.dir( window.foo );
 console.log( window.foo === foo ); // operation to show equality
 ````
 
-> * **Note:** This only happens when `window` is the *global scope*. If you're scratching your head, it's valid. There are actually instances where you'll find that `window` is not the global scope. A good example of this would be when you inject one web page into another using an `iframe`. The `window` object of the code running inside the `iframe` is no longer the global scope. Huzzah!
+> **Note:** This only happens when `window` is the *global scope*. If you're scratching your head, it's valid. There are actually instances where you'll find that `window` is not the global scope. A good example of this would be when you inject one web page into another using an `iframe`. The `window` object of the code running inside the `iframe` is no longer the global scope. Huzzah!
 
 #### So...
 
