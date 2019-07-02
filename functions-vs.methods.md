@@ -4,7 +4,7 @@
 function foo () {};
 ````
 
-`foo` is a **"function"** in the typical sense. `foo` also happens to be a **"method"**.
+`foo` is a **"function"** in the [typical sense](https://www.cs.utah.edu/~germain/PPS/Topics/functions.html). `foo` also happens to be a **"method"**.
 
 ### "How can this be?" you might ask...
 
