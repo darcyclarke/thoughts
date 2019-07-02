@@ -2,8 +2,8 @@
 
 ```javascript
 function hello (name) {
-  return `Hello ${name}!`;
-};
+  return `Hello ${name}!`
+}
 ````
 
 `foo` is a **"function"** in the [typical sense](https://www.cs.utah.edu/~germain/PPS/Topics/functions.html). `foo` also happens to be a **"method"**.
@@ -19,13 +19,11 @@ Although not explicit, in JavaScript, any **variable** or **function** *declarat
 ### See hoisting & inheritence in action yourself...
 
 ```javascript
-function foo () {};
-console.dir(window);
-console.dir(window.hello);
-console.log(window.hello === hello); // operation to show strict equality, 'cause I wanted to
+console.dir(window.hello)
+console.log(window.hello === hello) // operation to show strict equality, 'cause I wanted to
 
-console.log(hello.constructor.prototype); // prototypal inheritence from `Function`
-console.dir(hello.constructor.prototype === Function.constructor.prototype); 
+console.log(hello.constructor.prototype) // prototypal inheritence from `Function`
+console.dir(hello.constructor.prototype === Function.constructor.prototype)
 ````
 
 > **Note:** Hoisting objects to `window` only happens when it is the *global scope*. If you're scratching your head, it's valid. There are actually instances where you'll find that `window` is not the *global scope*. A good example of this would be when you inject one web page into another using an `iframe`. The `window` object of the code running inside the `iframe` is no longer the *global scope*. **Huzzah!** *[The more you know...](https://www.youtube.com/watch?v=GD6qtc2_AQA)*
