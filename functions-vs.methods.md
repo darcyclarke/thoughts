@@ -19,11 +19,12 @@ Although not explicit, in JavaScript, any **variable** or **function** *declarat
 ### See hoisting & inheritence in action yourself...
 
 ```javascript
-console.dir(window.hello)
-console.log(window.hello === hello) // operation to show strict equality, 'cause I wanted to
+console.dir(hello)
+console.dir(window.hello) // show hoisting
+console.log(window.hello === hello) // show strict equality, just 'cause
 
-console.log(hello.constructor.prototype) // prototypal inheritence from `Function`
-console.dir(hello.constructor.prototype === Function.constructor.prototype)
+console.log(hello.constructor.prototype) // show prototypal inheritence from `Function`
+console.dir(hello.constructor.prototype === Function.constructor.prototype) // show strict equality, just 'cause
 ````
 
 > **Note:** Hoisting objects to `window` only happens when it is the *global scope*. If you're scratching your head, it's valid. There are actually instances where you'll find that `window` is not the *global scope*. A good example of this would be when you inject one web page into another using an `iframe`. The `window` object of the code running inside the `iframe` is no longer the *global scope*. **Huzzah!** *[The more you know...](https://www.youtube.com/watch?v=GD6qtc2_AQA)*
