@@ -27,7 +27,7 @@ console.log(welcome.constructor.prototype) // show prototypal inheritence from `
 console.dir(welcome.constructor.prototype === Function.constructor.prototype) // show strict equality, just 'cause
 ````
 
-Let's try referencing properties we'll inherit...
+Let's try referencing properties we'll have access to...
 
 ```javascript
 function welcome(name) {
