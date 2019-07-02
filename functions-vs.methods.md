@@ -1,8 +1,8 @@
 # "Functions" vs. "Methods" in JavaScript...
 
 ```javascript
-function hello (name) {
-  return `Hello ${name}!`
+function welcome(name) {
+  return `Welcome ${name}!`
 }
 ````
 
@@ -19,20 +19,41 @@ Although not explicit, in JavaScript, any **variable** or **function** *declarat
 ### See hoisting & inheritence in action yourself...
 
 ```javascript
-console.dir(hello)
-console.dir(window.hello) // show hoisting
-console.log(window.hello === hello) // show strict equality, just 'cause
+console.dir(welcome)
+console.dir(window.welcome) // show hoisting
+console.log(window.welcome === welcome) // show strict equality, just 'cause
 
-console.log(hello.constructor.prototype) // show prototypal inheritence from `Function`
-console.dir(hello.constructor.prototype === Function.constructor.prototype) // show strict equality, just 'cause
+console.log(welcome.constructor.prototype) // show prototypal inheritence from `Function`
+console.dir(welcome.constructor.prototype === Function.constructor.prototype) // show strict equality, just 'cause
 ````
+
+Let's try referencing properties we'll inherit...
+
+```javascript
+function welcome(name) {
+  return `Welcome ${name} to ${this.location.host}!`
+}
+welcome('Bob') // Welcome Bob to domain.com!
+```
+
+Or even within closures...
+
+```javascript
+function runScoped () {
+  function welcome() {
+    console.log(`Welcome ${name} to ${this.location.host}!`)
+  }
+  welcome()
+}
+runScoped() // Welcome Bob to domain.com!
+```
 
 > **Note:** Hoisting objects to `window` only happens when it is the *global scope*. If you're scratching your head, it's valid. There are actually instances where you'll find that `window` is not the *global scope*. A good example of this would be when you inject one web page into another using an `iframe`. The `window` object of the code running inside the `iframe` is no longer the *global scope*. **Huzzah!** *[The more you know...](https://www.youtube.com/watch?v=GD6qtc2_AQA)*
 
 ### So you're telling me...
 
-So, what this means is that `foo` derives/inherits from a base type object... and is, therefore, both a **"function"** and a **"method"**. 
+So, what this means is that `foo` derives/inherits from a base type object... and is, therefore, both a **"function"** and a **"method"**. That said, there's a ton more you could/should learn about [hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting), [context/closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) & [inheritance](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance).
 
-### And this means...
+### But ultimately, this means...
 
 And this means that the next time someone asks you whether `x` is a **"function"** or a **"method"**, feel free to retort *how pedantically misguided that question is - you cheeky developer you! :wink:*
