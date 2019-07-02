@@ -21,7 +21,7 @@ Some of the core concepts I'll touch on & probe are: cryptography, permission, c
 - No accountability/regulation at the transaction level
   - Wallet/application developers are not vetted/verified
   - Transactions are all irreversible (although, all blockchain cryptocurrencies are like this, it's just a very dangerous precedent to be setting en-masse)
-- Will never be recognized by institutional banks/governments (ie. you can't pay your taxes or mortgage with Libra) *~speculation~*
+- Will never be recognized by institutional banks/governments (ie. you can't pay your taxes or mortgage with Libra) (*I'm speculating*)
 - Restrictive association requirements (ie. becoming a validator/regulator node on the system):
 
 > *"To join the association, members must have a half rack of server space, a 100Mbps or above dedicated internet connection, a full-time site reliability engineer and enterprise-grade security. Businesses must hit two of three thresholds of a $1 billion USD market value or $500 million in customer balances, reach 20 million people a year and/or be recognized as a top 100 industry leader by a group like Interbrand Global or the S&P."*
