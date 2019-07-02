@@ -3,7 +3,7 @@
 So, I've read a lot about Facebook's new "cryptocurrency" & wanted to consolidate some of my thoughts/thinking here. For reference, I've added some of the articles I found most useful, along with the [marketing][1] & [white paper][2] citations, [below](#references--citations).
 
 ### Introduction & Overview
-At a high level, I've been extremely skeptical about the practical usage of traditional cryptocurrencies (ie. Bitcoin, Litecoin, Etherium etc.) as the fundamental technical underpinning [does not scale](https://www.youtube.com/watch?v=s2XHyzPA9Zc). That said, Facebook's new "cryptocurrency" operates more like what PayPal should have been/become, in terms of a standard, digital, interop for monetary transactions.
+At a high level, I've been extremely skeptical about the practical usage of traditional cryptocurrencies (ie. Bitcoin, Litecoin, Etherium etc.) as the fundamental technical underpinning [does not scale](https://www.youtube.com/watch?v=s2XHyzPA9Zc). That said, Facebook's new "cryptocurrency" operates more like what PayPal should have been/become, in terms of a standard interop for digital transactions.
 
 Some of the core concepts I'll touch on & probe are: cryptography, permission, consensus, wallets, decentralization & centralization; In many cases, these terms have grey areas &/or vary in their usage in all the articles I've read or discussions I've participated in over the last few years.
 
