@@ -31,5 +31,3 @@ So, what this means is that `foo` derives/inherits from the `window` object... a
 ### And this means...
 
 And this means that the next time someone asks you whether `x` is a **"function"** or a **"method"**, feel free to explain *how pedantically incorrect that sentiment is - you cheeky developer you! :wink:*
-
-![Boom](http://assets.diylol.com/hfs/3a1/04b/f82/resized/success-kid-meme-generator-boom-delivered-the-win-c6a5e4.jpg )
