@@ -14,7 +14,7 @@ Semantically, the only difference between a **"method"** and a **"function"** is
 
 ### Now the fun part...
 
-Although not explicit, in JavaScript, any **variable** or **function** *declaration* (ie. `var ...` or `function ...`), found in the *global scope* gets hoisted, **automagically™**, and a reference is bound to the `window` object. Furthermore, your definition *inherits* properties from it's corresponding type, such as **Function**, which ultimately *inherits* properties from the base **Object**.
+Although not explicit, in JavaScript, any **variable** or **function** *declaration* (ie. `var ...` or `function ...`), found in the *global scope* gets hoisted, **automagically™**, and a reference is bound to the `window` object. Furthermore, your definition *inherits* properties from it's corresponding type, such as `Function`, which ultimately *inherits* properties from the base `Object`.
 
 ### See hoisting & inheritence in action yourself...
 
