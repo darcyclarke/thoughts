@@ -7,7 +7,7 @@ At a high level, I've been extremely skeptical about the practical usage of trad
 
 Some of the core concepts I'll touch on & probe are: cryptography, permission, consensus, wallets, decentralization & centralization; In many cases, these terms have grey areas &/or vary in their usage in all the articles I've read or discussions I've participated in over the last few years.
 
-### Notes on what Libra is?
+### What Libra is?
 - Fiat 
   - Local stable fiat currencies are allowed to be converted, then held in a reserve; Allowing for, potentially, infinite Libra to be in circulation
   - Interest on fiat currency put into the system is distributed relatively between regulators (ie. consider the exchange of cash for Libra as if you were putting money into a savings account which the bank redistributes or gains interest on)
@@ -28,19 +28,19 @@ Some of the core concepts I'll touch on & probe are: cryptography, permission, c
 >
 > *"Crypto-focused investors must have more than $1 billion in assets under management, while Blockchain businesses must have been in business for a year, have enterprise-grade security and privacy and custody or staking greater than $100 million in assets. And only up to one-third of founding members can by crypto-related businesses or individually invited exceptions. Facebook also accepts research organizations like universities, and nonprofits fulfilling three of four qualities, including working on financial inclusion for more than five years, multi-national reach to lots of users, a top 100 designation by Charity Navigator or something like it and/or $50 million in budget."*
 
-### Notes on what Libra isn't?
+### What Libra isn't?
 - Decentralized (ie. in terms of governance, authority, ledger, reserve etc.)
   - Trust is shifted away from the community at large & back to an oligarchy
   - This is less safe then traditional blockchains as the centralization of authority/validation is prone to exploitation
 - New currency or wealth
   - There is no way to "mine" or create Libra unless the "association" distributes more (ie. a Fiat currency) 
 
-### Notes on what Calibra is?
+### What Calibra is?
 - A managed wallet (ie. you get some degree of safety/support for backups when there is a hack or loss of currency)
   - Unfortunately, you have to provide a means of authentication/identification (ie. passport, license etc.) which concedes any privacy/anomynity to an already disingenuous brand(s) who can't be trusted to keep your data private
 - A pseudo-digital bank (much like PayPal)
 
-### Notes on what Calibra isn't?
+### What Calibra isn't?
 - Private (ex. sudo-nonymous profiles are associated with wallets & meta data on purchases will be captured)
 
 # Conclusion
