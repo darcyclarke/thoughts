@@ -9,7 +9,7 @@ Some of the core concepts I'll touch on & probe are: cryptography, permission, c
 
 ### What Libra is?
 - Fiat 
-  - Local stable fiat currencies are allowed to be converted, then held in a reserve; Allowing for, potentially, infinite Libra to be in circulation
+  - Local, "stable" fiat currencies are allowed to be converted, then held in a reserve; Allowing for, potentially, infinite Libra to be in circulation
   - Interest on fiat currency put into the system is distributed relatively between regulators (ie. consider the exchange of cash for Libra as if you were putting money into a savings account which the bank redistributes or gains interest on)
   - The value of Libra isn't dictated by market demand or expectations; Instead, regulated by the "association"
   - Honestly, it seems like a hedge-fund with some central banking concepts thrown in
@@ -33,7 +33,7 @@ Some of the core concepts I'll touch on & probe are: cryptography, permission, c
   - Trust is shifted away from the community at large & back to an oligarchy
   - This is less safe then traditional blockchains as the centralization of authority/validation is prone to exploitation
 - New currency or wealth
-  - There is no way to "mine" or create Libra unless the "association" distributes more (ie. a Fiat currency) 
+  - There is no way to "mine" or create Libra unless the "association" distributes more (ie. a fiat currency) 
 
 ### What Calibra is?
 - A managed wallet (ie. you get some degree of safety/support for backups when there is a hack or loss of currency)
