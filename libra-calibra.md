@@ -17,7 +17,7 @@ Some of the core concepts I'll touch on & probe are: cryptography, permission, c
 - [Permissioned](6)
 - Fast/scalable
   - Having limited nodes/authorities means you can [shard/fork the blockchain][7]
-  - You can hit 1000 transactions per second because of limited consensus & nodes on the network 
+  - You can hit **1000 transactions per second** because of limited consensus & nodes on the network (see "Permissioned")
 - No accountability/regulation at the transaction level
   - Wallet/application developers are not vetted/verified
   - Transactions are all irreversible (although, all blockchain cryptocurrencies are like this, it's just a very dangerous precedent to be setting en-masse)
