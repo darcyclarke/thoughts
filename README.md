@@ -6,5 +6,5 @@ if you think I'm wrong... or any thought here is wrong... [**open a pull request
 
 #### table of contents:
 
-- [Functions vs. Methods (in JS)](functions-vs.methods.md)
-- [Libra & Calibra](libra-calibra.md)
+- [Functions vs. Methods in JavaScript (2015)](functions-vs.methods.md)
+- [Libra & Calibra (2019)](libra-calibra.md)
