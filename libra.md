@@ -1,27 +1,28 @@
 # Libra & Calibre
 
-Read a lot about this (good links & references attached, if you're bored);
-- https://techcrunch.com/2019/06/18/facebook-libra/
-- https://www.theverge.com/2019/6/26/18716326/facebook-libra-cryptocurrency-blockchain-irs-starbucks
-- https://www.bloomberg.com/news/articles/2019-06-18/better-than-bitcoin-facebook-unveils-libra-cryptocurrency
-- https://www.youtube.com/watch?v=f5OCTY6aT8I
+So, I've read a lot about Facebook's new "cryptocurrency" & wanted to consolidate some of my thoughts/thinking here. For reference, here are some of the articles I found most useful, along with the [marketing][1] & [white paper][2] citations below.
 
-What it is?
-- It's more similar to PayPal or a freemium game then traditional cryptocurrencies like Bitcoin, Litecoin, Etherium etc.
-- Using a lot of buzzwords
-- Isn't decentralized (permissioned)
+## Introduction & Overview
+At a high level, I've been extremely skeptical about the practical usage of traditional cryptocurrencies (ie. Bitcoin, Litecoin, Etherium etc.) as the fundamental technical underpinning does not scale (
 
-What it isn't?
-...
-
-Key concepts:
+### Key concepts:
 - cryptography
 - permission
 - consensus
 - wallet
 - decentralized vs. centralized
 
-Pros:
+## What Libra is?
+- It's similar to transferring cash into PayPal or some kind of freemium game currency (ie. digital "bits")
+- Using a lot of buzzwords
+- Isn't decentralized (permissioned)
+
+## What Libra isn't?
+- a "traditional" cryptocurrency
+
+## Why is it set up like this?
+
+## Pros:
 - reach
 - fees
 - performance (ie. sharding/forking/permission-based, 1000 transactions a second)
@@ -46,3 +47,16 @@ Cons:
 - This will be determined by the adoption/support amongst the wider marketplace (ex. similar to Apple/Android pay systems)
 - It will almost assuradly take over some marketshare from existing payment processors (ie. Apple/Android/PayPal/Stripe/Interac)
 -
+
+### References & Citations
+- [Libra][1]
+- [Calibra][2]
+- [TechCrunch][3]
+- [The Verge][4]
+- [Bloomberg][5]
+
+[1]: https://libra.org/
+[2]: https://calibra.com/
+[3]: https://techcrunch.com/2019/06/18/facebook-libra/
+[4]: https://www.theverge.com/2019/6/26/18716326/facebook-libra-cryptocurrency-blockchain-irs-starbucks
+[5]: https://www.bloomberg.com/news/articles/2019-06-18/better-than-bitcoin-facebook-unveils-libra-cryptocurrency
