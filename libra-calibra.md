@@ -1,6 +1,6 @@
-# Libra & Calibre
+# Libra & Calibra
 
-So, I've read a lot about Facebook's new "cryptocurrency" & wanted to consolidate some of my thoughts/thinking here. For reference, here are some of the articles I found most useful, along with the [marketing][1] & [white paper][2] citations below.
+So, I've read a lot about Facebook's new "cryptocurrency" & wanted to consolidate some of my thoughts/thinking here. For reference, I've added some of the articles I found most useful, along with the [marketing][1] & [white paper][2] citations, [below](#references--citations).
 
 ## Introduction & Overview
 At a high level, I've been extremely skeptical about the practical usage of traditional cryptocurrencies (ie. Bitcoin, Litecoin, Etherium etc.) as the fundamental technical underpinning does not scale (
