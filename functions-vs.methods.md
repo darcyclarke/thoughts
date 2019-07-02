@@ -6,7 +6,7 @@ function hello(name) {
 }
 ````
 
-`foo` is a **"function"** in the [typical sense](https://www.cs.utah.edu/~germain/PPS/Topics/functions.html). `foo` also happens to be a **"method"**.
+`hello` is a **"function"** in the [typical sense](https://www.cs.utah.edu/~germain/PPS/Topics/functions.html). `hello` also happens to be a **"method"**.
 
 ### "How can this be?" you might ask...
 
@@ -30,7 +30,7 @@ console.log(hello.constructor.prototype === Function.constructor.prototype) // s
 
 ### So you're telling me...
 
-So, what this means is that `foo` derives/inherits from a base type object... and is, therefore, both a **"function"** and a **"method"**. That said, there's a ton more you could/should learn about [hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting), [context/closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) & [inheritance](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance).
+So, what this means is that `hello` derives/inherits from a base type object... and is, therefore, both a **"function"** and a **"method"**. That said, there's a ton more you could/should learn about [hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting), [context/closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) & [inheritance](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance).
 
 ### But ultimately, this means...
 
