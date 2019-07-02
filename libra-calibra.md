@@ -16,7 +16,7 @@ Some of the core concepts I'll touch on & probe are: cryptography, permission, c
 - Centralized (ie. the "association" acts like a central bank with governance, authority, ledger validation, interest, reserves etc.)
 - [Permissioned](6)
 - Fast/scalable
-  - Having limited nodes/authorities means you can shard/fork the blockchain
+  - Having limited nodes/authorities means you can [shard/fork the blockchain][7]
   - You can hit 1000 transactions per second because of limited consensus & nodes on the network 
 - No accountability/regulation at the transaction level
   - Wallet/application developers are not vetted/verified
@@ -56,6 +56,7 @@ The success of Libra & Calibra will be determined by the adoption/support amongs
 - [The Verge][4]
 - [Bloomberg][5]
 - [Permissioned Blockchains][6]
+- [Scaling Blockchains][7]
 
 [1]: https://libra.org/
 [2]: https://calibra.com/
@@ -63,3 +64,4 @@ The success of Libra & Calibra will be determined by the adoption/support amongs
 [4]: https://www.theverge.com/2019/6/26/18716326/facebook-libra-cryptocurrency-blockchain-irs-starbucks
 [5]: https://www.bloomberg.com/news/articles/2019-06-18/better-than-bitcoin-facebook-unveils-libra-cryptocurrency
 [6]: https://www.investopedia.com/terms/p/permissioned-blockchains.asp
+[7]: https://www.youtube.com/watch?v=4CdO0olVfAA
