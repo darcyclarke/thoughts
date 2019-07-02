@@ -32,7 +32,7 @@ console.log(hello.constructor.prototype === Function.constructor.prototype) // s
 
 ### So you're telling me...
 
-So, what this means is that `hello` derives/inherits from a base type object... and is, therefore, both a **"function"** and a **"method"**. That said, there's a ton more you could/should learn about [hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting), [context/closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) & [inheritance](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance).
+So, what this means is that `hello` derives/inherits from a base type object... and is, therefore, both a **"function"** and a **"method"**. That said, there's a ton more you should read about [hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting), [context/closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this) & [inheritance](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance).
 
 ### But ultimately, this means...
 
