@@ -22,7 +22,6 @@ Although not explicit, in JavaScript, any **variable** or **function** *declarat
 console.dir(hello)
 console.dir(window.hello) // show hoisting
 console.log(window.hello === hello) // show strict equality, just 'cause
-
 console.log(hello.constructor.prototype) // show prototypal inheritence from `Function`
 console.dir(hello.constructor.prototype === Function.constructor.prototype) // show strict equality, just 'cause
 ````
