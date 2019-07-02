@@ -14,7 +14,7 @@ Some of the core concepts I'll touch on & probe are: cryptography, permission, c
   - The value of Libra isn't dictated by market demand or expectations; Instead, regulated by the "association"
   - Honestly, it seems like a hedge-fund with some central banking concepts thrown in
 - Centralized (ie. the "association" acts like a central bank with governance, authority, ledger validation, interest, reserves etc.)
-- [Permissioned](6)
+- [Private / Permissioned](6)
 - Fast/scalable
   - Having limited nodes/authorities means you can [shard/fork the blockchain][7]
   - You can hit **1000 transactions per second** because of limited consensus & nodes on the network (see "Permissioned")
@@ -29,6 +29,7 @@ Some of the core concepts I'll touch on & probe are: cryptography, permission, c
 > *"Crypto-focused investors must have more than $1 billion in assets under management, while Blockchain businesses must have been in business for a year, have enterprise-grade security and privacy and custody or staking greater than $100 million in assets. And only up to one-third of founding members can by crypto-related businesses or individually invited exceptions. Facebook also accepts research organizations like universities, and nonprofits fulfilling three of four qualities, including working on financial inclusion for more than five years, multi-national reach to lots of users, a top 100 designation by Charity Navigator or something like it and/or $50 million in budget."*
 
 ### What Libra isn't?
+- [Public](6)
 - Decentralized (ie. in terms of governance, authority, ledger, reserve etc.)
   - Trust is shifted away from the community at large & back to an oligarchy
   - This is less safe then traditional blockchains as the centralization of authority/validation is prone to exploitation
