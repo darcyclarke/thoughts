@@ -46,7 +46,7 @@ Some of the core concepts I'll touch on & probe are: cryptography, permission, c
 
 # Conclusion
 
-Overall, Libra is more similar to PayPal, or some kind of freemium game currency (ie. digital "bits"), then a traditional cryptocurrency. Unfortunately, the marketing of Libra is doubling down on hot crypto buzzwords even though the actual offering misses the mark. The attractice part of cryptocurrencies is their radical, & yet, crucial decentralization of authority through blockchain validation. Decentralized wallets mean nothing without a decentralized, authoritive ledger as well.
+Overall, Libra is more similar to PayPal, or some kind of freemium game currency (ie. digital "bits"), then a traditional cryptocurrency. Unfortunately, the marketing of Libra is doubling down on hot crypto buzzwords even though the actual offering misses the mark. The attractive part of cryptocurrencies is their radical, & yet, crucial decentralization of authority through blockchain validation. Decentralized wallets mean nothing without a decentralized, authoritive ledger as well.
 
 The success of Libra & Calibra will be determined by the adoption/support amongst the wider marketplace (ex. similar to Apple/Android pay systems). It will almost assuradly take over some marketshare from existing payment processors but I'd be hesitant to say that transferring our trust & control of any currency to corporatations, not governed by states, will benefit end-users/consumers.
 
