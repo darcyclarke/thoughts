@@ -36,7 +36,7 @@ const companies = `
   Snapchat
   Yahoo
 `
-companies.split('\n').filter(c => !!c.trim()).map(c => exec(`open https://duckduckgo.com/?q=${c}+scandal`))
+companies.split('\n').map(c => !!c.trim() && exec(`open https://duckduckgo.com/?q=${c.trim()}+scandal`))
 ```
 
 **expose companies...**
