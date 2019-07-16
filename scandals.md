@@ -36,7 +36,7 @@ const companies = `
 companies.split('\n').map(c => !!c.trim() && exec(`open https://duckduckgo.com/?q=${c.trim()}+scandal`))
 ```
 
-**exposing companies, you probably already knew had problems at one time or another...**
+**exposing companies you probably already knew had problems at one time or another...**
 ```bash
 $ node scandal.js
 ```
