@@ -1,11 +1,11 @@
 # Tech Scandals & Cancel Culture
 
-No one is perfect. The larger & longer an organization exists the more likely it is to come up against the will & moral high-ground of the masses. Scandals, breaches & backlash take all shapes & sizes; No tech company has come out of recent memory with a reputation unscathed. I've documented a number of these companies below for my own sanity (/w a quick script to remind myself of their problems).
+No one is perfect. The larger & longer an organization exists the more likely it is to come up against the will & moral high-ground of the masses. Scandals, breaches & backlash take all shapes & sizes; No tech company has come out of recent memory with a reputation unscathed. I've documented a number of these companies below for my own sanity.
 
 **scandal.js**
 ```js
 // this script opens searches for all companies listed, referencing "scandal" via duckduckgo
-// his opens 20+ new tabs... run at your own leisure/risk
+// this opens 20+ new tabs... run at your own leisure/risk
 const exec = require('child_process').exec
 const companies = `
   Microsoft
