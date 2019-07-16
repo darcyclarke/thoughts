@@ -27,11 +27,8 @@ const companies = `
   Reddit
   LinkedIn
   Netflix
-  YCombinator
   Tesla
   Adobe
-  Apollo
-  Disqus
   Dropbox
   Snapchat
   Yahoo
