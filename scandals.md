@@ -7,7 +7,7 @@ No one is perfect. The larger & longer an organization exists the more likely it
 // this script opens searches for all companies listed, referencing "scandal" via duckduckgo
 // this opens 20+ new tabs... run at your own leisure/risk
 const exec = require('child_process').exec
-const companies = `
+const brands = `
   Microsoft
   Google
   Amazon
@@ -31,12 +31,17 @@ const companies = `
   Adobe
   Dropbox
   Snapchat
+  Spotify
   Yahoo
+  Oracle
+  Linux Foundation
+  Node Foundation
+  Apache Foundation 
 `
-companies.split('\n').map(c => !!c.trim() && exec(`open https://duckduckgo.com/?q=${c.trim()}+scandal`))
+brands.split('\n').map(b => !!b.trim() && exec(`open https://duckduckgo.com/?q=${b.trim()}+scandal`))
 ```
 
-**exposing companies you probably already knew had problems at one time or another...**
+**exposing organizations you probably already knew had problems at one time or another...**
 ```bash
 $ node scandal.js
 ```
