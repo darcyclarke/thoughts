@@ -37,6 +37,7 @@ const brands = `
   Linux Foundation
   Node Foundation
   Apache Foundation 
+  Shopify
 `
 brands.split('\n').map(b => !!b.trim() && exec(`open https://duckduckgo.com/?q=${b.trim()}+scandal`))
 ```
