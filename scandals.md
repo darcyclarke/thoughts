@@ -1,6 +1,6 @@
 # Tech Scandals & Cancel Culture
 
-The larger & longer a company exists the more likely it is to come up against scandals, breaches & backlash of various shapes & sizes. As far as I can tell, no brand has come out of recent memory with a reputation unscathed. I've documented a number of these organizations below to remind myself, & others, that no one/group is perfect.
+The larger & longer a company exists the more likely it is to be involved in scandals, breaches & backlash of various shapes & sizes. As far as I can tell, no brand has come out of recent memory with a reputation unscathed. I've documented a number of these organizations below to remind myself, & others, that no one/group is perfect.
 
 **scandal.js**
 ```js
