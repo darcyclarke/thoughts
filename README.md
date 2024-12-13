@@ -6,6 +6,7 @@ if you think I'm wrong... [**open a pull request**](https://github.com/darcyclar
 
 #### table of contents...
 
+- 💸 [Socialism (2024)](socialism.md)
 - 🚓 [Tech Scandals & Cancel Culture (2019)](scandals.md)
 - 💰 [Libra & Calibra (2019)](libra-calibra.md)
 - ⁉️ [Functions vs. Methods in JavaScript (2015)](functions-vs.methods.md)
